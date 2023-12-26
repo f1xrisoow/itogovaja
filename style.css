@@ -40,6 +40,36 @@ body
     display: flex;
     list-style-type: none;
 }
+@media screen and (max-width: 768px) 
+{
+    
+    .zagolovok
+    {
+        font-size: 20px;
+        width: 300px;
+    }    
+    .menu-list
+    {
+    display: block;
+    width: 25%; 
+    max-width: 50%;
+    margin: auto auto 2px;
+    }
+    .menu-items
+    {
+        width: 50%;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 480px) 
+{
+
+    .menu-list
+    {
+    width: 75px;
+     
+    }
+}
 .menu-items
 {
     width: 250px;
